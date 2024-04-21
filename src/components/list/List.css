@@ -1,0 +1,70 @@
+.list {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* Wrap the cards to the next line */
+    justify-content: center; /* Center the cards horizontally */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+  .card-image {
+    height: 250px;
+    width: 200px;
+    padding: 5px;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-price {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  .add-to-cart-button {
+    background-color: #b80567;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+    background-color: #b80582;
+}
+.text-center{
+    text-align: center;
+}
+.image-container {
+    position: relative;
+  }
+  
+  .out-of-stock {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: rgba(211, 211, 211, 0.8); /* Light grey background */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
